@@ -34,4 +34,4 @@ echo "Removing install package..."
 rm -rf `pwd`/thsn-for-ubuntu/
 echo "Remove install package complete!"
 echo ""
-echo "*** Install TH Sarabun New Font complete ***"
+echo "*** Install Font complete ***"
