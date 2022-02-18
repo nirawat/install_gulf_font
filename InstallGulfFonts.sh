@@ -4,7 +4,7 @@
 # auther: Nirawat Prasertsang
 APP_VERSION="1.0"
 
-echo "# Install TH Sarabun New Font for Ubuntu terminal."
+echo "# Install Font for Ubuntu terminal."
 echo "# Version $APP_VERSION"
 echo ""
 echo "*** NOTICE: Install apt-get install"
