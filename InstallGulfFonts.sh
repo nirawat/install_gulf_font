@@ -23,6 +23,7 @@ echo "Download complete!"
 echo ""
 echo "Installing..."
 fc-cache -f -v
+fc-list
 echo "Install complete!"
 echo ""
 echo "*** Install TH Sarabun New Font complete ***"
