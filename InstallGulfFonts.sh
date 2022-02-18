@@ -17,8 +17,6 @@ echo "*** NOTICE: We've use root [sudo] mode. please enter the password. ***"
 echo "Downloading..."
 cd ..
 cd usr/share/fonts/truetype
-mkdir gulf-fonts
-cd usr/share/fonts/truetype/gulf-fonts
 git clone https://github.com/nirawat/install_gulf_font.git
 echo "Download complete!"
 echo ""
