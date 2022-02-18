@@ -24,6 +24,7 @@ echo "Download complete!"
 echo ""
 echo "Installing..."
 mv `pwd`/install_gulf_font/fonts/*.ttf ./gulf-fonts
+cd gulf-fonts
 fc-cache -f -v
 fc-list
 echo "Install complete!"
