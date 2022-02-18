@@ -4,7 +4,7 @@
 # auther: Nirawat Prasertsang
 APP_VERSION="1.0"
 
-echo "# Install TH Sarabun New Font for Ubuntu terminal."
+echo "# Install Font for Ubuntu terminal."
 echo "# Version $APP_VERSION"
 echo ""
 echo "*** NOTICE: Install apt-get install"
@@ -27,6 +27,7 @@ echo "Installing..."
 mkdir /usr/share/fonts/truetype/thai-sarabun-new
 mv `pwd`/thsn-for-ubuntu/*.ttf /usr/share/fonts/truetype/thai-sarabun-new/
 fc-cache -f -v
+fc-list
 echo "Install complete!"
 echo ""
 echo "Removing install package..."
