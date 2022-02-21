@@ -29,10 +29,10 @@ fc-cache -f -v
 fc-list | grep THSarabunNew
 echo "Config & Install complete!"
 echo ""
+echo "*** Install Font complete ***"
+echo ""
 echo "*** License ***"
 echo ""
 echo "By : Nirawat Prasertsang"
 echo "Email : nirawat.pss@gmail.com"
-echo "Mobile : 0886380638"
-echo ""
-echo "*** Install Font complete ***"
+echo " Mobile : 0886380638"
