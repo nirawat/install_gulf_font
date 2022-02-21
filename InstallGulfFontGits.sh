@@ -27,7 +27,7 @@ echo "Installing..."
 mkdir /usr/share/fonts/truetype/thai-sarabun-new
 mv `pwd`/thsn-for-ubuntu/*.ttf /usr/share/fonts/truetype/thai-sarabun-new/
 fc-cache -f -v
-fc-list
+fc-list | grep THSarabunNew
 echo "Install complete!"
 echo ""
 echo "Removing install package..."
